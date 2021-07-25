@@ -1,0 +1,422 @@
+<!DOCTYPE html>     
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoodFlip</title>
+    <link rel="shortcut icon" type="image/x-icon" href="Images/Site-logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e29773696d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <a href="#"><img src="Images/logo.jpg" class="logo"></a>
+            <ul>
+                <li><a href="#"><img src="Images/inbox.png"></a></li>
+                <li><a href="#"><img src="Images/notification.png"></a></li>
+                <li><a href="#"><img src="Images/news.png"></a></li>
+                <li><a href="https://pranav-programmer.github.io/videos.github.io/"><img src="Images/video.png"></a></li>
+            </ul>
+        </div> 
+        <div class="nav-right">
+
+            <div class="search-box">
+                <img src="Images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            
+            <div class="usericon online" onclick="settingsMenuToggle()">
+                <img src="Images/user.png">
+            </div>
+        </div>   
+        <!--------- Setting Menu -------- -->
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="Images/status1.jpg">
+                    <div>
+                        <p>Pranav Dharme</p>
+                        <a href="#" class="settings-user-profile-a">Profile</a>
+                    </div>
+            </div>
+            <hr>
+            <div class="user-profile">
+                    <img src="Images/feedback.png">
+                    <div>
+                        <p>Feedback</p>
+                        <a href="https://pranav-programmer.github.io/Feedback.github.io/" class="settings-user-profile-a">Put your valuable thoughts here</a>
+                    </div>
+            </div>
+            <hr>
+            <div class="settings-links">
+                <img src="Images/setting.png" class="settings-icon">
+                <a href="#">Setting</a>
+            </div>
+            <div class="settings-links">
+                <img src="Images/ask.png" class="settings-icon">
+                <a href="#">Help</a>
+            </div>
+            <div class="settings-links">
+                <img src="Images/display.png" class="settings-icon">
+                <a href="#">Display</a>
+            </div>
+            <div class="settings-links">
+                <img src="Images/logout.png" class="settings-icon">
+                <a href="#">Logout</a>
+            </div>
+            <div class="settings-links">
+                <img src="Images/login.png" class="settings-icon">
+                <a href="https://pranav-programmer.github.io/Registration-form.github.io/">Login another account</a>
+            </div>
+            </div>
+            
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <!-------- Left sidebar --------- -->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="Images/friends.png">Friends</a>
+                <a href="#"><img src="Images/group.png">Groups</a>
+                <a href="#"><img src="Images/short.png">MF Shot</a>
+                <a href="#"><img src="Images/shop.png">Marketplace</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Group Interaction</p>
+                <a href="#"><img src="Images/python.png">Python Learner</a>
+                <a href="#"><img src="Images/java.png">Java Work</a>
+                <a href="#"><img src="Images/c++.png">Advanced C++</a>
+                <a href="#"><img src="Images/html.png">Web Designer</a>
+                <a href="#"><img src="Images/linux.png">Linux User</a>
+                <a href="#" style="color: #1876f2;">See all</a>
+                <hr>
+            </div>
+            <div class="shortcut-links">
+                <p>You May Like</p>
+                <a href="#"><img src="Images/virat.jpg" style="margin-right: 10px;"> Virat Kohli<i class="fas fa-check-circle" style="color: blue;"></i><button type="button" style="color: #fff; background-color: blue; margin-left: 40px;">Follow</button>
+                <a href="#"><img src="Images/ronaldo.jfif" style="margin-right: 10px;">Cristiano Ronaldo<i class="fas fa-check-circle" style="color: blue;"></i><button type="button" style="color: #fff; background-color: blue; margin-left: 20px;">Follow</button></a>
+                <a href="#"><img src="Images/amazon.png" style="margin-right: 10px;">Amazon Prime Video<i class="fas fa-check-circle" style="color: blue;"></i><button type="button" style="color: #fff; background-color: blue; margin-left: 25px;">Follow</button></a>
+                <a href="#"><img src="Images/Akshay.jfif" style="margin-right: 10px;">Akshay Kumar<i class="fas fa-check-circle" style="color: blue;"></i><button type="button" style="color: #fff; background-color: blue; margin-left: 30px;">Follow</button></a>
+                <a href="#"><img src="Images/emma.jpg" style="margin-right: 10px;">Emma Watson<i class="fas fa-check-circle" style="color: blue;"></i><button type="button" style="color: #fff; background-color: blue; margin-left: 30px;">Follow</button></a>
+                <a href="#" style="color: #1876f2;">Follow more</a>
+            </div>
+        </div>
+
+        <!-------- Main content --------- -->
+        <div class="main-content">
+            
+            <div class="story-gallery">
+                <div class="story">
+                    <a href="#"><img src="Images/status1.jpg"></a>
+                    <a href="#"><p>Post Story</p></a>
+                </div>
+                <div class="story">
+                    <a href="#"><img src="Images/s1.jpg"></a>
+                    <a href="#"><p>Edward Corbyn</p></a>
+                </div>
+                <div class="story">
+                    <a href="#"><img src="Images/s2.jpg"></a>
+                    <a href="#"><p>Penelope Carter</p></a>
+                </div>
+                <div class="story">
+                    <a href="#"><img src="Images/s3.jpg"></a>
+                    <a href="#"><p>Chester Brown</p></a>
+                </div>
+                <div class="story">
+                    <a href="#"><img src="Images/s4.jpg"></a>
+                    <a href="#"><p>Bryce Gibson</p></a>
+                </div>
+                <div class="story">
+                    <a href="#"><img src="Images/s5.jpg"></a>
+                    <a href="#"><p>Marcus Carroll</p></a>
+                </div>
+                <div class="story">
+                    <a href="#"><img src="Images/s6.jpg"></a>
+                    <a href="#"><p>Thea Parker</p></a>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <a href="#"><img src="Images/status1.jpg"></a>
+                    <div>
+                        <a href="#"><p>Pranav Dharme</p></a><br>
+                        <select name="Select" required style="margin-right: ">
+                        <option>Public</option>
+                        <option>Friends of Friends</option>
+                        <option>Friends</option>
+                        <option>Only Me</option>
+                    </select>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="Hey! Pranav write something for your friends"></textarea>
+                    <div class="add-post-link">
+                        <a href="#"><img src="Images/video2.png">Live Video</a>
+                        <a href="#"><img src="Images/photo.png">Photo/Video</a>
+                        <a href="#"><img src="Images/sticker.png">Mood</a>
+                    </div>
+                </div>
+            </div>
+
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                <a href="#"><img src="Images/status1.jpg"></a>
+                    <div>
+                        <a href="#"><p>Pranav Dharme</p></a><br>
+                        <span style="margin-left: 50px;">19 Feb 2021, 6:38 pm</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            <p class="post-text">This is after completing my 1st session of 1st year at <span>Indian Institute of Technology, Mandi</span>.<a href="#">#IIT Mandi </a><a href="#">#Freshers</a></p>
+            <img src="Images/iitmandi.jfif" class="post-img">
+            <div class="post-row">
+                <div class="activityicons">
+                    <div><img src="Images/like.png">589</div>
+                    <div><img src="Images/comment.png">50</div>
+                    <div><img src="Images/share.png">20</div>
+                </div>
+                <div class="post-profile-icons">
+                    <a href="#"><img src="Images/status1.jpg"></a>
+                </div>
+            </div>
+        </div>
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                <a href="#"><img src="Images/p1.jpg"></a>
+                    <div>
+                        <a href="#"><p class="post-text">Sarah Edwards <span>update her profile picture</span></p></a><br>
+                        <span style="margin-left: 50px;">14 Feb 2021, 3:49 pm</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            <img src="Images/p1.jpg" class="post-img">
+            <div class="post-row">
+                <div class="activityicons">
+                    <div><i class="fas fa-heart" style="color: red;"></i>1k</div>
+                    <div><img src="Images/comment.png">500</div>
+                    <div><img src="Images/share.png">49</div>
+                </div>
+                <div class="post-profile-icons">
+                    <a href="#"><img src="Images/p1.jpg" class="post-img"></a>
+                </div>
+            </div>
+        </div>
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                <a href="#"><img src="Images/p2.jpg"></a>
+                    <div>
+                        <a href="#"><p class="post-text">Daniel Murphy</p></a><br>
+                        <span style="margin-left: 50px;">19 Feb 2021, 6:38 pm</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            <p class="post-text">Remembering days before pendamic with my best friends.<a href="#">#Friends </a><a href="#">#Freedom</a></p>
+            <img src="Images/p2p.jpg" class="post-img">
+            <div class="post-row">
+                <div class="activityicons">
+                    <div><i class="fas fa-heart" style="color: red;"></i>900</div>
+                    <div><img src="Images/comment.png">160</div>
+                    <div><img src="Images/share.png">77</div>
+                </div>
+                <div class="post-profile-icons">
+                    <a href="#"><img src="Images/p2.jpg"></a>
+                </div>
+            </div>
+        </div>
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                <a href="#"><img src="Images/p3.jpg"></a>
+                    <div>
+                        <a href="#"><p class="post-text">Austin Hall</p></a><br>
+                        <span style="margin-left: 50px;">10 Feb 2021, 12:01 am</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            <p class="post-text">Very Very Happy Birthday Max, may God fulfill your all the wishes, except that one.</p>
+            <img src="Images/p3p.jpg" class="post-img">
+            <div class="post-row">
+                <div class="activityicons">
+                    <div><img src="Images/like.png">397</div>
+                    <div><img src="Images/comment.png">30</div>
+                    <div><img src="Images/share.png">5</div>
+                </div>
+                <div class="post-profile-icons">
+                    <a href="#"><img src="Images/p3.jpg"></a>
+                </div>
+            </div>
+        </div>
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                <a href="#"><img src="Images/p4.jpg"></a>
+                    <div>
+                        <a href="#"><p class="post-text">Chloe Fisher</p></a><br>
+                        <span style="margin-left: 50px;">5 Feb 2021, 1:38 pm</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            <p class="post-text">I am happy to share that, I got my dream job in this tough time and for this I like to thanks all the people who help me in this.<a href="#">#SoftTech </a><a href="#">#AchiveGoal</a></p>
+            <img src="Images/p4p.jpg" class="post-img">
+            <div class="post-row">
+                <div class="activityicons">
+                    <div><i class="fas fa-heart" style="color: red;"></i>2k</div>
+                    <div><img src="Images/comment.png">1k</div>
+                    <div><img src="Images/share.png">492</div>
+                </div>
+                <div class="post-profile-icons">
+                    <a href="#"><img src="Images/p4.jpg"></a>
+                </div>
+            </div>
+        </div>
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                <a href="#"><img src="Images/p5.jpg"></a>
+                    <div>
+                        <a href="#"><p class="post-text">Stella Jacobs</p></a><br>
+                        <span style="margin-left: 50px;">1 Feb 2021, 11:00 am</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            <p class="post-text">Let give us a chance and we can do that, that no one can think of ever !! .<a href="#">#FollowPath </a><a href="#">#ClearThought</a></p>
+            <img src="Images/p5p.jpg" class="post-img">
+            <div class="post-row">
+                <div class="activityicons">
+                    <div><i class="fas fa-heart" style="color: red;"></i>5k</div>
+                    <div><img src="Images/comment.png">3k</div>
+                    <div><img src="Images/share.png">2k</div>
+                </div>
+                <div class="post-profile-icons">
+                    <a href="#"><img src="Images/p5.jpg"></a>
+                </div>
+            </div>
+        </div>
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                <a href="#"><img src="Images/html.png"></a>
+                    <div>
+                        <a href="#"><p class="post-text">Web Designer</p></a><br>
+                        <span style="margin-left: 50px;">20 Jan 2021, 10:00 pm</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            <p class="post-text">Hello Guys,<br>Let's start your journey for a fantastic web developer and we are here to help. Learn from website, practice it on your screen, build your own website, and share your experince here mostly about your mistakes, help others when they ask.<a href="#">#Web Design </a><a href="#">#WorkTogether</a></p>
+            <img src="Images/p6p.jpg" class="post-img">
+            <div class="post-row">
+                <div class="activityicons">
+                    <div><i class="fas fa-heart" style="color: red;"></i>10k</div>
+                    <div><img src="Images/comment.png">2k</div>
+                    <div><img src="Images/share.png">1k</div>
+                </div>
+                <div class="post-profile-icons">
+                    <a href="#"><img src="Images/html.png"></a>
+                </div>
+            </div>
+        </div>
+
+        <button type="button" class="load-more-btn">Load More</button>
+
+        </div>
+
+        <!-------- Right sidebar --------- -->
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Recent Chats</h4>
+                <a href="#">Hide</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <a href="#"><img src="Images/m1.jpg"></a>
+                </div>
+                <a href="#"><p>Augustine Clark</p></a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <a href="#"><img src="Images/w1.jpg"></a>
+                </div>
+                <a href="#"><p>Scarlett Martin</p></a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <a href="#"><img src="Images/m2.jpg"></a>
+                </div>
+                <a href="#"><p>Eden Lewis</p></a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <a href="#"><img src="Images/w2.jpg"></a>
+                </div>
+                <a href="#"><p>Quinn Scott</p></a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <a href="#"><img src="Images/m3.jpg"></a>
+                </div>
+                <a href="#"><p>Uriel Flores</p></a>
+            </div>
+
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See all</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>25</h3>
+                    <span>February</span>
+                </div>
+                <div class="right-event">
+                    <h4>Your Birthday</h4>
+                    <p>Buy some gift for you from here and celebrate your day</p>
+                    <a href="#"><i class="fas fa-gift"></i>Gift for you</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>5</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Web Design group meet</h4>
+                    <p>Meet virtualy using below link and make a smooth communication.</p>
+                    <a href="#"><i class="fas fa-video"></i>Meet link</a>
+                </div>
+            </div>
+             <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <a href=""><img src="Images/ad1.jpg" class="sidebar-ads"></a>
+            <a href=""><img src="Images/ad2.jpg" class="sidebar-ads"></a>
+        </div>
+    </div>
+
+<div class="footer">
+    <p>Copyright <i class="far fa-copyright"></i> 2021 MoodFlip Social Site Group. All Rights Reserved</p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
