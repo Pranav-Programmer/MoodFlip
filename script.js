@@ -7,22 +7,22 @@ darkBtn.onclick = function(){
 	darkBtn.classList.toggle("dark-btn-on");
 	document.body.classList.toggle("dark-theme");
 
-	if(Localstorage.getItem("theme") == "light"){
-		LocalStorage.setItem("theme", "dark");
+	if(localStorage.getItem("theme") == "light"){
+		localStorage.setItem("theme", "dark");
 	}
 	else{
-		LocalStorage.setItem("theme", "light");
+		localStorage.setItem("theme", "light");
 	}
 }
 
-if(Localstorage.getItem("theme") == "light"){
+if(localStorage.getItem("theme") == "light"){
 	darkBtn.classList.remove("dark-btn-on");
 	document.body.classList.remove("dark-theme");
 }
-else if(Localstorage.getItem("theme") == "dark"){
+else if(localStorage.getItem("theme") == "dark"){
 	darkBtn.classList.add("dark-btn-on");
 	document.body.classList.add("dark-theme");
 }
 else{
-	LocalStorage.setItem("theme", "light");
+	localStorage.setItem("theme", "light");
 }
