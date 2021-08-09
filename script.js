@@ -1,3 +1,7 @@
+var loader = document.getElementById("preloader")
+window.addEventListener("load", function(){
+	loader.style.display = "none";
+})
 var settingsmenu = document.querySelector(".settings-menu");
 var darkBtn = document.getElementById("dark-btn");
 function settingsMenuToggle(){

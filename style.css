@@ -19,6 +19,14 @@ body{
 	background: var(--body-color);
 	transition: background 0.3s;
 }
+#preloader{
+	background: transparent url(Images/preloader.gif) no-repeat center center;
+	background-size: 11%;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
 nav{
 	display: flex;
 	align-items: center;
