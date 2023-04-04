@@ -1,2 +1,2 @@
-# MoodFlip.github.io
+# MoodFlip
 
